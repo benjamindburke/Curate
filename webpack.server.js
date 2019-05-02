@@ -26,12 +26,3 @@ app.get("/*", (req, res) => {
 const server = new webpackDevServer(webpack(config));
 server.listen(proxyPort, "localhost");
 app.listen(port, "localhost");
-
-/** ----------------------------------------
- *      Hot Module Reload code
- *  ----------------------------------------*/
-
-let module;
-if (module.hot) {
-  module.hot.accept();
-}

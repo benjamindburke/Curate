@@ -1,12 +1,15 @@
 {
-  "name": "playlistperfect",
+  "name": "spotifycurate",
   "version": "0.0.1",
   "description": "Spotify playlist curation tool suite",
   "main": "src/index.tsx",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-router-dom": "^4.3.1"
+    "react-hot-loader": "^4.8.4",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^4.3.1",
+    "sqlite3": "^4.0.6"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
@@ -14,17 +17,19 @@
     "@types/react-dom": "^16.8.0",
     "@types/react-router-dom": "^4.3.1",
     "@types/request": "^2.48.1",
+    "@types/sqlite3": "^3.1.5",
     "@types/webpack": "^4.4.25",
     "css-loader": "^2.1.1",
     "express": "^4.16.4",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.12.0",
     "proxy-middleware": "^0.15.0",
+    "react-router": "^5.0.0",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
-    "tslint": "^5.12.1",
     "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
     "typescript": "^3.3.3",
     "url": "^0.11.0",
     "webpack": "^4.29.3",

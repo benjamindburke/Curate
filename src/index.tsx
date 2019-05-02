@@ -1,5 +1,21 @@
-import { Hello } from "./Hello";
-import * as ReactDOM from "react-dom";
 import * as React from "react";
+import { render } from "react-dom";
+import { AppContainer } from "react-hot-loader";
+import { App } from "./App";
 
-ReactDOM.render(<Hello framework="React" compiler="Typescript" bundler="Webpack"/>, document.getElementById("root"));
+
+const renderApp = () => {
+  render(
+    <AppContainer>
+      <App />
+    </AppContainer>,
+    document.getElementById("root")
+  );
+}
+
+declare const module: any;
+if (module.hot) {
+  module.hot.accept("./App", () => renderApp());
+}
+
+renderApp();

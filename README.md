@@ -1,6 +1,6 @@
-# Playlist Perfect
+# Curate
 
-PlaylistPerfect is a Spotify playlist curation suite extending the Spotify API.
+Curate is a Spotify playlist curation suite extending the Spotify API.
 
 ## Tech Stack
 
