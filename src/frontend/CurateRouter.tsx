@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Route } from "react-router-dom";
-import { CurateStage } from "./components/stages/CurateStage";
-import { SessionStage } from "./components/stages/SessionStage";
-import { WelcomeStage } from "./components/stages/WelcomeStage";
+import { CurateStage } from "frontend/components/stages/CurateStage";
+import { SessionStage } from "frontend/components/stages/SessionStage";
+import { WelcomeStage } from "frontend/components/stages/WelcomeStage";
 
 export class CurateRouter extends React.Component {
   public render() {
